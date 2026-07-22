@@ -63,12 +63,9 @@ if nota_valida(nota1):
                     print(msg_aprovado_exame(media_exame))
                 else:
                     print(f"Nota de exame {nota_exame} inválida!")
-
         else:
             print(f"Nota 3: {nota3} é inválida!")
-
     else:
         print(f"Nota 2: {nota2} é inválida!")
-
 else:
     print(f"Nota 1: {nota1} é inválida!")

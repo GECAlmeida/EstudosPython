@@ -30,4 +30,5 @@ for l in range(3):
 if (achou):
     print(f"Elemento {elem} encontrado na matriz")
 else:
-    print(f"Elemento {elem} NÃO  foi encontrado na matriz")
+    print(f"Elemento {elem} NÃO foi encontrado na matriz")
+

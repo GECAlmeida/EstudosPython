@@ -6,3 +6,6 @@ while opcao != "s" and opcao != "S" and opcao != "n" and opcao != "N":
     opcao = input("Digite [S]im ou [N]ão: ")
 
 print("Você digitou ", opcao)
+
+# MAIS FACIL E CURTO NO WHILE:
+# while opcao.lower() not in ("s", "n"):

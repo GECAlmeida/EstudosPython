@@ -18,3 +18,7 @@ elif dia == 7:
     print("Sábado")
 else:
     print("Dia inválido!")
+
+# match dia:
+#     case 1:
+#         print("Domingo")

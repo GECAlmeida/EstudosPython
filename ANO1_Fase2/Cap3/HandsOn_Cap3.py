@@ -6,7 +6,7 @@ for i in range(1, 51):
 
     if nota < 0 or nota > 10:
         print("Nota inválida!")
-        continue ##CUMPRE FUNÇÃO DO ELSE
+        continue ##CUMPRE FUNÇÃO DO ELSE, vai pro próximo i
 
     if i % 2 == 0:
         totalpar += nota

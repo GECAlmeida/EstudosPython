@@ -32,4 +32,4 @@ for i in range(0, 10, 1):
 if (achou):
     print(f"Elemento {elem} encontrado no vetor")
 else:
-    print(f"Elemento {elem} NÃO  foi encontrado no vetor")
+    print(f"Elemento {elem} NÃO foi encontrado no vetor")
