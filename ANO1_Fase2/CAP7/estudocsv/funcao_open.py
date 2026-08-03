@@ -1,5 +1,5 @@
 #usando funcao open para criar um obj do tipo arquivo. tem que duplicar barrar pra reconhecerr como barra
-arquivo = open('C:\\Users\\gabri\\DATA SCIENCE\\EstudosPython\\ANO1_Fase2\\CAP7\\arquivo_de_texto.txt')
+arquivo = open('C:\\Users\\gabri\\DATA SCIENCE\\EstudosPython\\ANO1_Fase2\\CAP7\\estudocsv\\arquivo_de_texto.txt')
 print(type(arquivo))
 #  print(arquivo.read())
 # LER OS PRIMEIROS 50 BYTES
@@ -43,6 +43,6 @@ for linha in arquivo:
 # FECHAR APÓS USAR, SEMPRE
 arquivo.close()
 # OU com WITH FECHA AUTOMATICAMENTE APOS O USO
-with open('C:\\Users\\gabri\\DATA SCIENCE\\EstudosPython\\ANO1_Fase2\\CAP7\\arquivo_de_texto.txt') as arquivo:
+with open('C:\\Users\\gabri\\DATA SCIENCE\\EstudosPython\\ANO1_Fase2\\CAP7\\estudocsv\\arquivo_de_texto.txt') as arquivo:
    conteudo = arquivo.read()
    print(conteudo)
