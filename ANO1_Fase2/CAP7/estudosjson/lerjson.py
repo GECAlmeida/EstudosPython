@@ -1,6 +1,6 @@
 import json
 
-arquivo = open("C:\\Users\\gabri\\DATA SCIENCE\\EstudosPython\\ANO1_Fase2\\CAP7\\estudosjson\\agenda.json", "r")
+arquivo = open("C:\\Users\\gabri\\datascience\\EstudosPython\\ANO1_Fase2\\CAP7\\estudosjson\\agenda.json", "r")
 
 conteudo_do_arquivo = arquivo.read() # read() LÊ O CONTEÚDO DO ARQUIVO
 

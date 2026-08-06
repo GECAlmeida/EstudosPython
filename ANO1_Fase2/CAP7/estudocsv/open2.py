@@ -9,11 +9,11 @@ conteudo = "Estou testando criar um arquivo de texto."
 # t - abrir em modo de texto(padrao)
 # + - abrir para atualização (leitura e escrita)
 
-# arquivo = open('C:\\Users\\gabri\\DATA SCIENCE\\EstudosPython\\ANO1_Fase2\\CAP7\\novo_arquivo_de_texto.txt', 'w')
+# arquivo = open('C:\\Users\\gabri\\datascience\\EstudosPython\\ANO1_Fase2\\CAP7\\novo_arquivo_de_texto.txt', 'w')
 ## ESCREVENDO O CONTEUDO DA VARIAVEL CONTEUDO DENTRO DO ARQUIVO
 # arquivo.write(conteudo)
 # arquivo.close()
 
-arquivo = open('C:\\Users\\gabri\\DATA SCIENCE\\EstudosPython\\ANO1_Fase2\\CAP7\\novo_arquivo_de_texto.txt', 'a')
+arquivo = open('C:\\Users\\gabri\\datascience\\EstudosPython\\ANO1_Fase2\\CAP7\\novo_arquivo_de_texto.txt', 'a')
 arquivo.write(conteudo)
 arquivo.close()

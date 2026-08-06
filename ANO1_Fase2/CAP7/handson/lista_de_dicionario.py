@@ -1,7 +1,7 @@
 import json
 
 # abrindo o arquivo agenda.json que é lista de dicionário para leitura
-with open("C:\\Users\\gabri\\DATA SCIENCE\\EstudosPython\\ANO1_Fase2\\CAP7\\handson\\agenda_dc.json", "r") as arquivo:
+with open("C:\\Users\\gabri\\datascience\\EstudosPython\\ANO1_Fase2\\CAP7\\handson\\agenda_dc.json", "r") as arquivo:
 
     conteudo_arquivo = arquivo.read() # read() LÊ O CONTEÚDO DO ARQUIVO
 

@@ -2,7 +2,7 @@ import json
 
 # MELHOR PRÁTICA: USAR O ENCODING UTF-8 PARA LER ARQUIVOS JSON PARA EVITAR ERROS DE CODIFICAÇÃO DE CARACTERES ESPECIAIS
 with open(
-    "C:\\Users\\gabri\\DATA SCIENCE\\EstudosPython\\ANO1_Fase2\\CAP7\\handson\\star_wars.json",
+    "C:\\Users\\gabri\\datascience\\EstudosPython\\ANO1_Fase2\\CAP7\\handson\\star_wars.json",
     "r",
     encoding="utf-8"
 ) as arquivo:

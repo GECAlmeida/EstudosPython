@@ -17,7 +17,7 @@ final = json.dumps(contatos, indent=4) # DUMPS CONVERTE O DICIONARIO EM JSON
 print(type(final))
 print(final)
 
-arquivo = open("C:\\Users\\gabri\\DATA SCIENCE\\EstudosPython\\ANO1_Fase2\\CAP7\\estudosjson\\agenda.json", "w")
+arquivo = open("C:\\Users\\gabri\\datascience\\EstudosPython\\ANO1_Fase2\\CAP7\\estudosjson\\agenda.json", "w")
 
 arquivo.write(final)
 

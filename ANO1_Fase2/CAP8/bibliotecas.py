@@ -1,3 +1,6 @@
-import pandas as pd
+# import pandas as pd
 # print(dir(pd))
-help(pd.DataFrame)
+# help(pd.DataFrame)
+
+from pandas import DataFrame as df
+help(df)
